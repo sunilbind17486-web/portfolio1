@@ -1,0 +1,141 @@
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    background: linear-gradient(
+        135deg,
+        #f09433,
+        #e6683c,
+        #dc2743,
+        #cc2366,
+        #bc1888
+    );
+    
+}
+
+/* Header */
+.hader {
+    color: #0b415d;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+
+/* Content Box */
+.contect {
+    width: 40%;
+    .contect {
+    margin-bottom: 20%;  /* 👈 percentage height se related hota hai */
+}
+
+    margin-top: -0.8%;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 4s;
+    background: linear-gradient(
+        135deg,
+        #54767c,
+        #fda085
+    );
+    
+}
+
+/* Hover Effect */
+.contect:hover {
+    box-shadow: 40px 50px 10px rgb(169, 13, 163);
+    transform: translateY(-20px);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+/* Heading Style */
+.h2 {
+    background: linear-gradient(
+        135deg,
+        #a989a2,
+        #710a93
+    );
+    padding: 2px;
+    border-radius: 14px;
+    margin: 20px auto;
+}
+
+/* Paragraph */
+.p1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+}
+.h1{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.p1{
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    
+
+
+.p2{
+    
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    font-weight: bold;
+}
+.intro{
+    padding: 20px;
+    
+    border-radius: 30px;
+    width:300px;
+    height:300px;
+    transition: 4s;
+    background: linear-gradient(
+        135deg,
+        #dd779a,
+        #185a9d
+    );
+    
+
+}
+
+.intro:hover {
+        box-shadow: 40px 50px 10px rgb(69, 118, 181);
+        transform: translateY(20px);
+        transition: 0.1s;
+        cursor: pointer;
+}
+
+.main{
+    display:flex;
+    justify-content:space-between;
+}
+.contect{
+    margin-top: 12px;
+    height: 760px;
+}
+.image{
+    margin-top: 12px;
+    height: 760px;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: 2s;
+
+}
+.image:hover {
+        box-shadow: 40px 50px 10px rgb(162, 23, 116);
+        transform: translateY(-20px);
+        transition: 0.1s;
+        cursor: pointer;
+}
+    
